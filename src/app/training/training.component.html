@@ -1,0 +1,4 @@
+<h3>{{title}}</h3>
+<p *ngFor="let item of array">
+  <a [routerLink]="['/training', item]">detail ke {{item}}</a>
+</p>
